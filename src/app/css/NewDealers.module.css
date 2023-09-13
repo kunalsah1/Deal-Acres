@@ -1,0 +1,145 @@
+.container5 {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-left: 8rem;
+  width: 60%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(32, 34, 44);
+  color: white;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 1.5rem;
+  height: 15rem;
+  position: relative;
+}
+.card h4 {
+  margin: 10px 0;
+}
+
+.dealerImage {
+  border-radius: 30px;
+  position: absolute;
+  left: 20px;
+}
+
+.details {
+  position: absolute;
+  left: 19rem;
+  top: 1rem;
+}
+
+.lines {
+  display: flex;
+}
+.lines p {
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.mid {
+  margin: 0 5px;
+}
+
+.btn {
+  width: 17rem;
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(219, 228, 239);
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+
+.heart{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+@media (max-width: 1721px){
+  .container5{
+    flex-direction: column;
+    gap: 50px;
+  }
+
+}
+
+@media (max-width: 1625px){
+  .container5{
+    justify-content: center;
+    align-items: center;
+  }
+  .cards{
+    margin-left: 0;
+    padding: 10px;
+  }
+  .card{
+    height: 30rem;
+    flex-direction: column;
+    width: 30rem;
+  }
+  .dealerImage{
+    width: 75%;
+    top: 20px;
+    left: 4rem;
+  }
+  .details{
+    left: 2rem;
+    top: 13rem;
+  }
+ 
+  .btn{
+    left: 2rem;
+  }
+}
+
+@media (max-width: 535px){
+  .card{
+    width: 20rem;
+    height: 35rem;
+  
+  }
+  
+  .dealerImage{
+    
+    top: 20px;
+    left: 2.5rem;
+  }
+  
+  .details{
+    top: 15rem;
+  }
+
+  .lines p{
+    margin: 10px 0;
+  }
+    }
+  
+
+

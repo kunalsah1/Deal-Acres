@@ -1,0 +1,29 @@
+.container1 {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+      
+  @media (max-width: 1721px){
+    .container1{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+   
+    }
+    .img{
+      width: fit-content;
+      height: 20rem;
+    }
+  }
+
+  @media (max-width: 580px){
+
+    .img{
+      width: fit-content;
+      height: 15rem;
+    }
+  }

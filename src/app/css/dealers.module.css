@@ -1,0 +1,233 @@
+
+.container3{
+    display: flex;
+    margin-top: 5rem;
+  }
+  .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    width: 60%; 
+  }
+  
+  .card{
+    display: flex;
+    align-items: center;
+    background-color:rgb(32, 34, 44) ;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 1.5rem;
+    height: 15rem;
+  }
+  .card h4{
+    margin: 10px 0;
+  }
+  
+  .dealerImage{
+    border-radius: 30px;
+    position: absolute;
+    left: 20px;
+    
+  }
+  
+  .details{
+    position: absolute;
+    left: 19rem;
+    top: 1rem;
+  }
+  
+  .lines{
+    display: flex;
+  }
+  .lines p{
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  .mid{
+    margin: 0 5px;
+  }
+  
+  .btn{
+    width: 17rem;
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .btn button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(219, 228, 239);
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .featured{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    align-items: center;
+  }
+  .featured button{
+    background-color:rgb(219, 228, 239) ;
+    color: black;
+    padding: 0 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    height: fit-content;
+  }
+  
+  
+  .register{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   background-color:  rgb(32, 34, 44); 
+   height: 24%;
+   border-radius: 20px;
+   padding: 22px;
+  }
+  .register p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .register form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 5px;
+   margin-top: 1rem;
+  }
+  .register input{
+    padding: 6px 0;
+    margin-bottom: 15px ;
+    margin-top: 2px;
+    
+  }
+  .register textarea{
+    margin-bottom: 10px;
+    background-color: rgb(32, 34, 44);
+    color: white;
+  }
+  .register select{
+    margin-bottom: 10px;
+  }
+ 
+  .register span{
+    color: rgb(51, 128, 201);
+  }
+  .check{
+    margin-right: 3px;
+    font-weight: 400;
+  }
+  
+  .aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  
+  }
+  
+  .popular{
+    color: white;
+    background-color: rgb(32, 34, 44);
+    width: 72%;
+    margin-top: 4rem;
+    padding: 20px;
+    border-radius: 20px;
+   
+  }
+  .popular p {
+    font-size: 1.2rem;
+    padding: 0.4rem;
+   
+  }
+
+
+  @media (max-width: 1721px){
+    .container3{
+      flex-direction: column;
+      gap: 50px;
+    }
+
+  }
+
+  @media (max-width: 1625px){
+    .container3{
+      justify-content: center;
+      align-items: center;
+    }
+    .cards{
+      margin-left: 0;
+      padding: 10px;
+    }
+    .card{
+      height: 32rem;
+      flex-direction: column;
+      width: 30rem;
+    }
+    .dealerImage{
+      width: 75%;
+      top: 20px;
+      left: 4rem;
+    }
+    .details{
+      left: 2rem;
+      top: 13rem;
+    }
+    .featured{
+      top: 14rem;
+    }
+    .btn{
+      left: 2rem;
+    }
+  }
+
+  @media (max-width: 535px){
+.card{
+  width: 20rem;
+  height: 40rem;
+
+}
+
+.dealerImage{
+  
+  top: 20px;
+  left: 2.5rem;
+}
+
+.details{
+  top: 15rem;
+}
+.featured{
+ top: 32rem;
+  height: fit-content;
+}
+.lines p{
+  margin: 10px 0;
+}
+  }
+
+
+ 
